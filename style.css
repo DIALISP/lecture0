@@ -1,0 +1,50 @@
+.center {
+  margin: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+div {
+  font-size: 18px;
+}
+div h2, div h3 {
+  color: #226bf1;
+  padding: 10px;
+}
+div h2 {
+  text-align: center;
+}
+div table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+div th, div td {
+  padding: 10px;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

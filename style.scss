@@ -1,0 +1,57 @@
+// sass 
+$color: green;
+$font-stack:    Helvetica, sans-serif;
+
+%center {
+    margin: auto;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+div {
+    font-size: 18px;
+    h2, h3 {
+        color: rgb(34, 107, 241);
+        padding: 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+    table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 10px;
+    }
+      
+}
+
+body {
+    font: 100% $font-stack;
+  }
+
+h1 {
+    color: $color;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+.center {
+    @extend %center;
+}
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
